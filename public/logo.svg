@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+
+  <!-- H Letter -->
+  <!-- Left vertical -->
+  <rect x="60" y="60" width="35" height="180" fill="#000000"/>
+  <!-- Right vertical -->
+  <rect x="210" y="60" width="35" height="180" fill="#000000"/>
+  <!-- Middle crossbar -->
+  <rect x="60" y="132" width="185" height="35" fill="#000000"/>
+
+  <!-- K Letter -->
+  <!-- K left vertical — starts right after H -->
+  <rect x="290" y="60" width="35" height="180" fill="#000000"/>
+  <!-- K upper diagonal line (top-right) -->
+  <polygon points="325,149  325,60  365,60  440,149" fill="#000000"/>
+  <!-- K lower diagonal line (bottom-right) -->
+  <polygon points="325,151  440,240  400,240  325,171" fill="#000000"/>
+
+  <!-- Divider -->
+  <line x1="50" y1="310" x2="450" y2="310" stroke="#191919" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- Hammad -->
+  <text x="250" y="400"
+        text-anchor="middle"
+        font-family="Arial Black, Arial, sans-serif"
+        font-weight="900"
+        font-size="65"
+        fill="#0f172a"
+        letter-spacing="5">Hammad</text>
+
+</svg>
