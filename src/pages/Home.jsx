@@ -1,3 +1,4 @@
+import myresume from "../assets/myresume.pdf";
 export default function Home() {
   const handleScroll = (href) => {
     const el = document.querySelector(href);
@@ -117,7 +118,7 @@ export default function Home() {
             </div>
 
             <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
-              <a href="/cv.pdf" download style={{
+              <a href={myresume} download="Hammad_CV.pdf" style={{
                 display: 'inline-flex', alignItems: 'center', gap: '8px',
                 padding: '12px 24px', borderRadius: '10px',
                 backgroundColor: 'var(--accent)', color: 'white',
