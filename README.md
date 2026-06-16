@@ -1,5 +1,5 @@
 # React + Vite
-Open in live Server https://hammadfida01-hash.github.io/React-Portfolio/
+Open in live Server https://hammadfida01-hash.github.io/Portfolio/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
